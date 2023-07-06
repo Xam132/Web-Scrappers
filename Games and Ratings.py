@@ -9,7 +9,7 @@ headers = {
 
 url = 'https://www.imdb.com/search/title/?title_type=video_game&genres=action&explore=genres&ref_=adv_prv'
 
-file = open('./Crawlers/Outputs/Games.csv','w',encoding='utf8')
+file = open('./Output/Games.csv','w',encoding='utf8')
 write = csv.writer(file)
 write.writerow(['name','year','genres','rating'])
 
